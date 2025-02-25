@@ -1,0 +1,150 @@
+/* Resetando estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #f1c6d8;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #d16f85;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #d16f85;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #c45872;
+  }
+  
+  /* Seção de Serviços */
+  .services {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5em;
+    color: #d16f85;
+    margin-bottom: 20px;
+  }
+  
+  .service-item {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .service-item h3 {
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .service-item p {
+    color: #777;
+  }
+  
+  /* Depoimentos */
+  .testimonials {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.5em;
+    color: #d16f85;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonial strong {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Localização */
+  .location {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .location h2 {
+    font-size: 2.5em;
+    color: #d16f85;
+    margin-bottom: 20px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #d16f85;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1.2em;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
